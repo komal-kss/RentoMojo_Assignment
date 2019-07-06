@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" >
-  <title>Hello, world!</title>
+  <title>Rentomojo!</title>
   <style>
    .body{
      background-image: url('bg7.jpg');
@@ -29,14 +29,14 @@
           <div class="card-body">
         <div class="row justify-content-center mt-3 ">
            
-           <form action="connection.php" method="POST">
+           <form action="auth" method="POST">
             <div class="form-group">
               <label>Username</label>
-              <input class="form-control" type="text" name="uname"  placeholder="Enter Username"/>
+              <input class="form-control" type="text" name="username"  placeholder="Enter Username"/>
             </div>
             <div class="form-group">
               <label>Password</label>
-              <input class="form-control" type="password" name="pass"  placeholder="Enter Password"/>
+              <input class="form-control" type="password" name="password"  placeholder="Enter Password"/>
             </div>
             <div>
                <button type="submit" name="login" class="btn btn-primary mp-2">Login </button>
